@@ -1,0 +1,152 @@
+/* Creado por Ángel Hernández Ortiz. Última modificación 02/01/2019 */
+body{
+	background-color: lightgray;
+	font-family: sans-serif;
+}
+
+ul.diseño1 li{
+	list-style-type: none;
+	float: left;
+	background-color: #5ACE77;
+	width: 13%;
+	border: #954A95 5px dashed;
+	color: purple;
+	font-weight: bold;
+	text-align: center;
+	margin-right: 1%;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+
+ul.diseño2{
+	margin-left: 28%;
+}
+
+ul.diseño2 li {
+	list-style-type: none;
+	float: left;
+	border:black 2px solid;
+	border-color: white black black white;
+	background-color: white;
+	margin-right: 2%;
+	padding: 5px;
+
+}
+
+ul.diseño2 li:hover {
+	background-color: lightgray;
+	border:black 2px solid;
+	border-color: black white white black;
+}
+
+ul.diseño3{
+	border: black 1px solid;
+	margin-right: 85%;
+	padding: 1%;
+
+}
+
+ul.diseño3 li{
+	list-style-type: none;
+	border: black 1px solid;
+	background-color: white;
+	text-align: center;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	margin-bottom: 5%;
+
+}
+ul.diseño4{
+	margin-left: 17%;
+}
+
+ul.diseño4 li{
+	list-style-type: none;
+	float: left;
+	text-align: center;
+	font-weight: bold;
+	width: 15%;
+	margin-right: 3px;
+	padding: 1%;
+}
+
+ul.diseño4 li.botton1{
+	background-color: white;
+	color: blue;
+
+}
+
+ul.diseño4 li.botton2{
+	background-color: blue;
+	color: white;
+}
+
+ul.diseño5 li{
+	list-style-type: none;
+	float: left;
+	margin-right: 30px;
+}
+
+ul.diseño6{
+	margin-left: 15%;
+}
+
+ul.diseño6 li{
+	list-style-type: none;
+	text-align: center;
+	float: left;
+	font-size: 200%;
+	border: black 3px solid;
+	border-radius: 20%;
+	background-color:white;
+	margin: 20px;
+	padding: 20px;
+}
+
+
+ul.diseño6 li span{
+	background-color: white;
+}
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot?-p8na1r');
+	src:url('fonts/icomoon.eot?#iefix-p8na1r') format('embedded-opentype'),
+		url('fonts/icomoon.woff?-p8na1r') format('woff'),
+		url('fonts/icomoon.ttf?-p8na1r') format('truetype'),
+		url('fonts/icomoon.svg?-p8na1r#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "MiMenu";
+	src: url("menu.woff");
+  }
+  
+  [class^="icon-"], [class*="icon-"] {
+	margin-right: 3px;
+	font-family: "Mimenu";
+	font-style: normal;
+  }
+  
+  .icon-inicio::before {
+	content: "\e900";
+  }
+  .icon-anadir::before {
+	content: "\ea0a";
+  }
+  .icon-listar::before {
+	content: "\e922";
+  }
+  .icon-borrar::before {
+	content: "\ea0b";
+  }
+  .icon-buscar::before {
+	content: "\e986";
+  }
+  .icon-modificar::before {
+	content: "\e905";
+  }
+  .icon-salir::before {
+	content: "\e9b6";
